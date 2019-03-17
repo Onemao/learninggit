@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>百度一下，你就知道</title>
+<style type="text/css"> 
+	*{margin:0;padding:0;}
+	html{text-align:center;font-size:12px;font-family:arial;color:#888888;} 
+	body{position:relative;min-height:600px;min-width:800px;height:98%;width:100%;}       
+	div{position:relative;display:block;border:0px solid red;}	
+	div.set{position:absolute;right:86px;top:20px;width:400px;text-align: right;}	
+	div.bd{top:20%;} 
+	div.bottom{position:absolute;bottom:30px;width:700px;left:50%;margin-left:-350px;}
+	a{padding:10px;color: #888888}
+	.bo{border:1px solid red}
+	.bo2{border-color:#888888}	
+	.set{position:absolute;right: 90px;top:0px;}
+	.more{display:block;position:absolute;right:0px;top:20px;width:80px;z-index:1;}
+	.more2{display:none;background:#eee;position:absolute;border-left:1px solid #dbdada;right:0px;top:0px;width:80px;}
+	.more:hover .more2{display:block;position:fixed;height:100%;}
+	.genduo{margin: 20px auto;}
+	.nuomi{position: relative;width:50px;height:55px;margin:0px auto 10px auto;}
+	.blue{background:#3385ff;color: #ffffff;border:1px solid #3385ff;}
+	.padd{padding:5px}
+	.block{display:block}
+	.mar{margin:10px}
+	.text1d{color: #272727;font-weight: bold;font-size: 13px;}
+	.text50{color: #505050;font-weight: normal;font-size: 13px;}
+	.line1{position: relative;background: #dbdada;width:60px;height:1px;margin:0px auto 10px auto;}
+	.bd1{}
+	.bd2{position:absolute;width:640px;height:36px;left:50%;margin:20px auto 0px -320px;}
+	.bd2-1{display:block;position:absolute;width:540px;height:34px;left:0;top:0;border:1px solid #a0a0a0;}
+	.bd2-1-1{display:block;position:absolute;width:490px;height:20px;left:7px;top:7px;border:0;outline:0;}
+	.bd2-2{display:block;position:absolute;width:101px;height:36px;right:0;top:0;font-size:15px;letter-spacing:1px}
+	#bd-icon1{background:#fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat}
+	#bd-icon1:hover{background-position:0px -20px;}
+	.bd2-1-2{display:block;position:absolute;width:18px;height:16px;right:14px;top:9px;}
+	.noa{text-decoration:none;color:#505050;padding:0;}
+	.noa:hover{text-decoration:underline;}
+	span.bd2-1:hover {border:1px solid #505050}
+	span.bd2-1:active {border:1px solid #3385ff}
+	.bd2-2:hover {background:#1674ff;border:1px solid #1674ff;box-shadow: 1px 1px 2px #888888;}
+</style>
+</head>
+<body>                
+	<div class="more">
+			<span class="blue padd">更多产品 </span>
+			<div class="more2 text50">
+				<div class="genduo">更多产品</div>
+				<div class="line1"></div>
+				<a class="noa" href="#">
+					<div class="nuomi"><img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/nuomi_7f5cd35.png" width="40"></br>糯米
+						</div></a>
+				<div class="line1"></div>
+				<a class="noa" href="#">
+					<div class="nuomi"><img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/nuomi_7f5cd35.png" width="40"></br>糯米
+						</div></a>
+				<div class="line1"></div>
+				<a class="noa" href="#">
+					<div class="nuomi"><img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/nuomi_7f5cd35.png" width="40"></br>糯米
+						</div></a>
+				<div class="line1"></div>
+				<a class="noa" href="#">
+					<div class="nuomi"><img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/nuomi_7f5cd35.png" width="40"></br>糯米
+						</div></a>
+				<div class="line1"></div>
+			</div>		
+	</div>
+	<div class="set">
+		<a class="text1d" href="http://news.baidu.com/">新闻 </a>
+		<a class="text1d" href="https://www.hao123.com/">好123 </a>
+		<a class="text1d" href="https://map.baidu.com" >地图 </a>
+		<a class="text1d" href="https://www.baidu.com" >贴吧</a>
+		<a class="text1d" href="https://www.baidu.com" >学术</a>  
+		<a class="text50" href="https://www.baidu.com" >登陆</a> 
+		<a class="text50" href="https://www.baidu.com" >设置</a> 								
+	</div>      
+	<div class="bd">
+		<a class="bd1" href="https://www.baidu.com/s?wd=今日新鲜事" title="点击一下，了解更多">
+			<img src="https://www.baidu.com/img/bd_logo1.png?where=super"  width="280px" >
+			</a>			
+		<form class="bd2" action="https://www.baidu.com/s" method="GET">				
+			<span class="bd2-1">
+				<a href="#"><span class="bd2-1-2" id="bd-icon1"></span></a>
+				<input class="bd2-1-1" name="wd" size="50" type="text" autocomplete="off">
+				</span>
+			<input class="bd2-2 blue" type="submit" value="百度一下">
+		</form>					
+	</div> 
+	<div class="bottom">
+		<div style="margin:20px">
+			<img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_x2_9d645d9.png" width="60px">
+			<div style="margin:5px;color: black">百度</div>
+		</div>	
+		<div class="mar">
+			<a class="aaa" href="https://www.baidu.com">把百度设为主页</a> 
+			<a class="aaa" href="https://www.baidu.com">关于百度</a>
+			<a class="aaa" href="https://www.baidu.com">About Baidu</a>
+			<a class="aaa" href="https://www.baidu.com">百度推广</a>
+		</div>	
+		<div >
+			<span>
+				2019
+				baidu
+				使用百度前必读 
+				意见反馈 
+				京ICP证030173号</span>			
+			<span>
+				京公安网备110000000000000号</span>
+		</div>		
+	</div>
+</body>
+</html>
